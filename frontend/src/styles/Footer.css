@@ -1,0 +1,15 @@
+/* Footer.css */
+
+.app-footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #2b2d42;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.app-footer p {
+    margin: 0;
+    color: #EDF2F4;
+}

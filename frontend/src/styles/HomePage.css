@@ -1,0 +1,32 @@
+/* HomePage.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will center the content vertically */
+    padding: 0 20px;
+}
+
+.home-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.home-text h2 {
+    color: #f81a0a; /* Change this to your preferred color for h2 */
+  }
+
+.home-text p {
+    color: #6c757d; /* Change this to your preferred color for p */
+}
+
+.home-image {
+    flex: 1;
+    border: 5px solid #ef233c;
+}
+
+.home-image img {
+    width: 100%;
+    height: auto;
+}

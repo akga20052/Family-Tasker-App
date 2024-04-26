@@ -1,0 +1,91 @@
+/* ToDoApp.css */
+
+.todo-app {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #8d99ae;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.add-task {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.add-task input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+ .add-task button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.task-list li.completed span {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.task-list li span {
+    display: block;
+  }
+
+  .task-list li button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .task-list li button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+
+/* Styles for deleted tasks section */
+.deleted-tasks {
+    margin-top: 20px;
+}
+
+.deleted-tasks h2 {
+    color: #dc3545;
+}
+
+.deleted-tasks li {
+    background-color: #f8d7da;
+    color: #721c24;
+}
