@@ -3,11 +3,11 @@ Family Tasker is a web application built using React where users can sign up, lo
 This app helps families stay organized by allowing them to assign tasks, mark them as completed, and delete them once done.
 
 ## Features
-User Authentication: Users can sign up for an account and log in securely to access the app's features.
-Task Management: Users can create tasks for themselves and other family members, assign them to specific individuals, and set due dates.
-Task Completion: Once a task is completed, users can mark it as done, indicating that it has been finished.
-Task Deletion: Users can delete tasks that are no longer needed or relevant.
-Database Integration: The app uses MySQL Workbench to store user information securely, including account details and task data.
+* User Authentication: Users can sign up for an account and log in securely to access the app's features.
+* Task Management: Users can create tasks for themselves and other family members, assign them to specific individuals, and set due dates.
+* Task Completion: Once a task is completed, users can mark it as done, indicating that it has been finished.
+* Task Deletion: Users can delete tasks that are no longer needed or relevant.
+* Database Integration: The app uses MySQL Workbench to store user information securely, including account details and task data.
 
 ## Technologies Used
 1. React: The app is built using the React library, allowing for a dynamic and interactive user interface.
